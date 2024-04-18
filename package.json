@@ -1,0 +1,21 @@
+{
+  "name": "cli_based_currency_cruncher_tool_2024",
+  "version": "1.0.0",
+  "description": "This is a cli based tool used to convert base currency in to quote currency.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HUMA MOHSIN",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.19"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
