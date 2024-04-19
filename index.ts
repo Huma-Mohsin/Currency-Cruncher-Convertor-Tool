@@ -108,7 +108,7 @@ let amount=answer.Amount;
 //USD as a base currency
 
 let baseAmount=amount/fromAmount;//first convert any currency amount to base currency.
-let convertedAmount=baseAmount*toAmount;//then convert into required currency.
+let convertedAmount=(baseAmount*toAmount).toFixed(3);//then convert into required currency.
 console.log(chalk.bgYellow.blackBright("Your converted Amount = ", convertedAmount));
 //Author-Huma Mohsin
 
